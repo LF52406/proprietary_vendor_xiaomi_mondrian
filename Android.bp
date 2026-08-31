@@ -4,6 +4,8 @@
 
 soong_namespace {
     imports: [
+        "device/xiaomi/sm8450-common",
+        "hardware/qcom-caf/sm8450",
         "hardware/google/interfaces",
         "hardware/google/pixel/pixelstats",
         "hardware/google/pixel/power-libperfmgr",
