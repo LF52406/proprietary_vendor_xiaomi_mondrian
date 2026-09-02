@@ -49,13 +49,7 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
-    <ambientLightHorizonLong>4000</ambientLightHorizonLong>
-    <ambientLightHorizonShort>1500</ambientLightHorizonShort>
-    <autoBrightnessBrighteningLightDebounce>2000</autoBrightnessBrighteningLightDebounce>
-    <autoBrightnessDarkeningLightDebounce>4000</autoBrightnessDarkeningLightDebounce>
-    <screenBrightnessRampFastDecrease>0.05</screenBrightnessRampFastDecrease>
-    <screenBrightnessRampSlowDecrease>0.02</screenBrightnessRampSlowDecrease>
-    <screenBrightnessRampFastIncrease>0.20</screenBrightnessRampFastIncrease>
-    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
+    <ambientLightHorizonLong>3000</ambientLightHorizonLong>
+    <ambientLightHorizonShort>1000</ambientLightHorizonShort>
 </displayConfiguration>
 <!-- END Adapt_MIUIAdaptFrame-->
