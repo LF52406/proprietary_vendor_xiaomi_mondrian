@@ -16,6 +16,7 @@
             <nits>1000.0</nits>
         </point>
     </screenBrightnessMap>
+    
     <!-- root node for HBM-->
     <highBrightnessMode enabled="true">
         <!-- Transition point brightness from normal to HBM mode -->
@@ -28,11 +29,6 @@
             <timeMaxSecs>0</timeMaxSecs>
             <timeMinSecs>0</timeMinSecs>
         </timing>
-        <!--Refresh rate limitation when the device is in HBM -->
-        <!-- <refreshRate>
-            <minimum>0</minimum>
-            <maximum>0</maximum>
-        </refreshRate> -->
         <!-- Thermal limitation for HBM -->
         <thermalStatusLimit>critical</thermalStatusLimit>
         <!-- Low power mode limitation for HBM -->
@@ -49,7 +45,20 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
-    <ambientLightHorizonLong>3000</ambientLightHorizonLong>
-    <ambientLightHorizonShort>1000</ambientLightHorizonShort>
+
+    <!-- Ambient light sensor horizon -->
+    <ambientLightHorizonLong>4000</ambientLightHorizonLong>
+    <ambientLightHorizonShort>1500</ambientLightHorizonShort>
+
+    <!-- Auto brightness debounce -->
+    <autoBrightnessBrighteningLightDebounce>2000</autoBrightnessBrighteningLightDebounce>
+    <autoBrightnessDarkeningLightDebounce>4000</autoBrightnessDarkeningLightDebounce>
+
+    <!-- Screen brightness ramp rates -->
+    <screenBrightnessRampFastDecrease>0.05</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampSlowDecrease>0.02</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampFastIncrease>0.20</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
+
 </displayConfiguration>
 <!-- END Adapt_MIUIAdaptFrame-->
